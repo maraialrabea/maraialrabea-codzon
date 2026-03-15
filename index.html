@@ -1,250 +1,352 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>شركة مراعي الربيع | Marai Al-Rabea</title>
-    <meta name="description" content="شركة مراعي الربيع لاستيراد المواد الغذائية والمواشي واللحوم والخضروات والفواكه ذات المسؤولية المحدودة" />
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/src/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container header-content">
-        <a href="#" class="logo">
-          <img src="/logo-light.svg" alt="شركة مراعي الربيع" id="main-logo" />
-        </a>
-        <nav class="nav" id="nav-menu">
-          <a href="#home" class="nav-link" data-i18n="nav_home">الرئيسية</a>
-          <a href="#about" class="nav-link" data-i18n="nav_about">من نحن</a>
-          <a href="#details" class="nav-link" data-i18n="nav_details">بيانات الشركة</a>
-          <a href="#services" class="nav-link" data-i18n="nav_services">الأنشطة المعتمدة</a>
-          <a href="#contact" class="nav-link" data-i18n="nav_contact">اتصل بنا</a>
-        </nav>
-        <div class="header-actions">
-          <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
-            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-          </button>
-          <button id="lang-toggle" class="btn-outline">EN</button>
-          <button class="hamburger" id="hamburger" aria-label="Menu">
-             <span></span>
-             <span></span>
-             <span></span>
-          </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة مراعي الربيع | Marai Al-Rabea</title>
+  <meta name="description"
+    content="شركة مراعي الربيع لاستيراد المواد الغذائية والمواشي واللحوم والخضروات والفواكه ذات المسؤولية المحدودة" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/logo-light.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#" class="logo">
+        <img src="/logo-light.svg" alt="شركة مراعي الربيع" id="main-logo" />
+      </a>
+      <nav class="nav" id="nav-menu">
+        <a href="#home" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+        <a href="#about" class="nav-link" data-i18n="nav_about">عن الشركة</a>
+        <a href="#values" class="nav-link" data-i18n="nav_values">قيمنا</a>
+        <a href="#details" class="nav-link" data-i18n="nav_details">البيانات الرسمية</a>
+        <a href="#services" class="nav-link" data-i18n="nav_services">أنشطتنا</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">اتصل بنا</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <button id="lang-toggle" class="btn-outline">EN</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-container animate-fade-up">
+        <div class="hero-content">
+          <div class="badge" data-i18n="hero_badge">شركة ليبية ذات مسؤولية محدودة</div>
+          <h1 data-i18n="hero_title">شركة مراعي الربيع</h1>
+          <h2 data-i18n="hero_subtitle">للأمن الغذائي واستيراد المواشي واللحوم</h2>
+          <p data-i18n="hero_desc">نضع بين أيديكم خبرتنا ومواردنا لضمان توفير أجود السلع التموينية والمواشي الحية للسوق
+            الليبي، مع التزام تام بأعلى معايير الجودة العالمية والضوابط المصرفية المؤسسية.</p>
+          <div class="hero-buttons">
+            <a href="#services" class="btn-primary btn-lg" data-i18n="btn_explore">اكتشف أنشطتنا</a>
+            <a href="#details" class="btn-secondary btn-lg" data-i18n="btn_legal">الاعتماد الرسمي</a>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Hero Section -->
-      <section id="home" class="hero section">
-        <div class="container hero-container">
-          <div class="hero-content">
-            <h1 data-i18n="hero_title">شركة مراعي الربيع</h1>
-            <h2 data-i18n="hero_subtitle">لاستيراد المواد الغذائية والمواشي واللحوم والخضروات والفواكه</h2>
-            <p data-i18n="hero_desc">شريككم الموثوق في توفير أجود السلع الغذائية والمواشي الحية المعتمدة وفق أعلى معايير الجودة الليبية والعالمية.</p>
-            <div class="hero-buttons">
-              <a href="#services" class="btn-primary" data-i18n="btn_explore">استكشف أنشطتنا</a>
-              <a href="#contact" class="btn-secondary" data-i18n="btn_contact">تواصل معنا</a>
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2 class="section-title" data-i18n="about_title">رؤية مؤسسية واضحة</h2>
+          <div class="divider"></div>
+          <p class="section-desc" data-i18n="about_intro">في مراعي الربيع، ندرك أهمية دورنا في دعم الاقتصاد الوطني
+            الليبي وتأمين احتياجات المجتمع بكفاءة وموثوقية.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card animate-fade-up" style="transition-delay: 0.1s;">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="20" width="20" height="2" rx="1"/><rect x="4" y="4" width="16" height="2" rx="1"/><path d="M6 6v14"/><path d="M10 6v14"/><path d="M14 6v14"/><path d="M18 6v14"/><path d="M12 4L12 2"/></svg>
             </div>
+            <h3 data-i18n="about_legal_status">كيان تجاري معتمد</h3>
+            <p data-i18n="about_legal_text">مسجلون رسمياً ضمن السجلات التجارية الليبية وغرفة التجارة والصناعة، لضمان
+              أعلى درجات الموثوقية في تعاملاتنا مع المصارف والمؤسسات.</p>
+          </div>
+          <div class="about-card animate-fade-up" style="transition-delay: 0.2s;">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <h3 data-i18n="about_vision">رؤيتنا الاستراتيجية</h3>
+            <p data-i18n="about_vision_text">الريادة في قطاع الاستيراد الغذائي في ليبيا، وتقديم نموذج يُحتذى به في
+              الالتزام المهني والتوريد المستدام عالي الجودة.</p>
+          </div>
+          <div class="about-card animate-fade-up" style="transition-delay: 0.3s;">
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 data-i18n="about_mission">رسالتنا للمجتمع</h3>
+            <p data-i18n="about_mission_text">بناء جسور من الثقة مع عملائنا وشركائنا من خلال الشفافية، والالتزام المطلق
+              بتقديم منتجات غذائية آمنة ومطابقة للمواصفات القياسية.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <div class="container">
-          <div class="section-title">
-            <h2 data-i18n="about_title">من نحن</h2>
-            <div class="divider"></div>
+    <!-- Performance & Values Section (Stats) -->
+    <section id="values" class="values section bg-alternate">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item animate-fade-up" style="transition-delay: 0.1s;">
+            <div class="stat-number" data-i18n="stat_capital">100,000</div>
+            <div class="stat-label" data-i18n="stat_capital_label">دينار ليبي - رأس المال المصرح</div>
           </div>
-          <div class="about-grid">
-            <div class="about-card">
-              <h3 data-i18n="about_company_name_label">الاسم القانوني</h3>
-              <p data-i18n="about_company_name">شركة مراعي الربيع لاستيراد المواد الغذائية والمواشي واللحوم والخضروات والفواكه ذات المسؤولية المحدودة</p>
-            </div>
-            <div class="about-card">
-              <h3 data-i18n="about_founded_label">سنة التأسيس</h3>
-              <p>2025</p>
-            </div>
-            <div class="about-card full-width">
-              <h3 data-i18n="about_vision_label">رؤيتنا ورسالتنا</h3>
-              <p data-i18n="about_vision_text">نسعى لأن نكون الشركة الرائدة في ليبيا في مجال استيراد السلع التموينية والمواشي وفقاً لأرفع مواصفات الجودة لضمان أمن غذائي مستدام وتقديم قيمة استثنائية لشركائنا والمجتمع.</p>
-            </div>
-            <div class="about-card full-width">
-              <h3 data-i18n="about_legal_label">الوضع القانوني</h3>
-              <p data-i18n="about_legal_text">شركة ذات مسؤولية محدودة مسجلة رسمياً تحت مظلة المصارف التجارية ومصرف ليبيا المركزي (CBL)، تمارس نشاطها وفقاً للقانون رقم (23) لسنة 2010 بشأن النشاط التجاري.</p>
-            </div>
+          <div class="stat-item animate-fade-up" style="transition-delay: 0.2s;">
+            <div class="stat-number">2025</div>
+            <div class="stat-label" data-i18n="stat_year_label">عام الانطلاق الرسمي</div>
+          </div>
+          <div class="stat-item animate-fade-up" style="transition-delay: 0.3s;">
+            <div class="stat-number">25</div>
+            <div class="stat-label" data-i18n="stat_duration_label">سنة مدة السجل التجاري</div>
+          </div>
+          <div class="stat-item animate-fade-up" style="transition-delay: 0.4s;">
+            <div class="stat-number" data-i18n="stat_100">100%</div>
+            <div class="stat-label" data-i18n="stat_libyan_label">ملكية ليبية وإدارة وطنية</div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Company Details Section -->
-      <section id="details" class="details section bg-alternate">
-        <div class="container">
-          <div class="section-title">
-            <h2 data-i18n="details_title">البيانات القانونية للشركة</h2>
-            <div class="divider"></div>
-          </div>
-          <div class="details-table-wrapper">
+    <!-- Company Details Section -->
+    <section id="details" class="details section">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2 class="section-title" data-i18n="details_title">البيانات القانونية والمصرفية</h2>
+          <div class="divider"></div>
+          <p class="section-desc" data-i18n="details_subtitle">معلومات الهوية الرقمية والقانونية لشركة مراعي الربيع،
+            متوافقة مع متطلبات مصرف ليبيا المركزي للتعاملات الرسمية والمستندات البنكية.</p>
+        </div>
+
+        <div class="details-layout animate-fade-up">
+          <div class="details-table-wrapper premium-shadow">
             <table class="details-table">
               <tbody>
                 <tr>
-                  <th data-i18n="detail_cr">رقم السجل التجاري</th>
-                  <td>05010202541436</td>
+                  <th data-i18n="detail_name">الاسم القانوني الكامل</th>
+                  <td data-i18n="detail_name_val" class="highlight-text">شركة مراعي الربيع لاستيراد المواد الغذائية
+                    والمواشي واللحوم والخضروات والفواكه ذات المسؤولية المحدودة</td>
                 </tr>
                 <tr>
-                  <th data-i18n="detail_tax">الرقم الضريبي (رقم الملف المصلحي)</th>
-                  <td>26349</td>
+                  <th data-i18n="detail_cr">رقم السجل التجاري</th>
+                  <td class="mono-text">05010202541436</td>
+                </tr>
+                <tr>
+                  <th data-i18n="detail_tax">الرقم الضريبي (الملف المصلحي)</th>
+                  <td class="mono-text">26349</td>
                 </tr>
                 <tr>
                   <th data-i18n="detail_license">رقم رخصة المزاولة</th>
-                  <td>401005010202541436</td>
+                  <td class="mono-text">401005010202541436</td>
                 </tr>
                 <tr>
-                  <th data-i18n="detail_chamber">رقم القيد بغرفة التجارة</th>
-                  <td>17412</td>
+                  <th data-i18n="detail_chamber">القيد بغرفة التجارة والصناعة طرابلس</th>
+                  <td><span class="mono-text">17412</span> (شعبة رقم 2)</td>
                 </tr>
                 <tr>
-                  <th data-i18n="detail_manager">اسم الممثل القانوني</th>
-                  <td data-i18n="manager_name">رضاء إبراهيم رمضان الربيعي</td>
-                </tr>
-                <tr>
-                  <th data-i18n="detail_address">العنوان الرسمي</th>
-                  <td data-i18n="address_text">ليبيا، طرابلس، تاجوراء - بجانب كبري المصانع</td>
-                </tr>
-                <tr>
-                  <th data-i18n="detail_phone">رقم الهاتف</th>
-                  <td dir="ltr">0947900300</td>
-                </tr>
-                <tr>
-                  <th data-i18n="detail_email">البريد الإلكتروني</th>
-                  <td>info@maraialrabea.ly</td>
+                  <th data-i18n="detail_manager">الممثل القانوني والمفوض العام</th>
+                  <td data-i18n="manager_name" class="highlight-text">السيد / رضاء إبراهيم رمضان الربيعي</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </div>
-      </section>
 
-      <!-- Services / CMS Section -->
-      <section id="services" class="services section">
-        <div class="container">
-          <div class="section-title">
-            <h2 data-i18n="services_title">الأنشطة التجارية والمصرح بها</h2>
-            <div class="divider"></div>
-            <p class="section-subtitle" data-i18n="services_subtitle">الأنشطة المتطابقة تماماً مع غرض التأسيس والسجل التجاري.</p>
-          </div>
-          
-          <div class="services-grid" id="cms-gallery">
-            <!-- Items will be injected by JavaScript CMS data -->
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section bg-alternate">
-        <div class="container">
-          <div class="section-title">
-            <h2 data-i18n="contact_title">تواصل معنا</h2>
-            <div class="divider"></div>
-          </div>
-          <div class="contact-grid">
-            <div class="contact-info">
-              <div class="info-item">
-                <div class="info-icon">📍</div>
-                <div>
-                  <h4 data-i18n="contact_address_label">مقر الشركة</h4>
-                  <p data-i18n="address_text">ليبيا، طرابلس، تاجوراء - بجانب كبري المصانع</p>
-                </div>
+          <div class="compliance-badges">
+            <div class="badge-card">
+              <div class="badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="20" width="20" height="2" rx="1"/><rect x="4" y="4" width="16" height="2" rx="1"/><path d="M6 6v14"/><path d="M10 6v14"/><path d="M14 6v14"/><path d="M18 6v14"/><path d="M12 4L12 2"/></svg>
               </div>
-              <div class="info-item">
-                <div class="info-icon">📞</div>
-                <div>
-                  <h4 data-i18n="contact_phone_label">الهاتف الرسمي</h4>
-                  <p dir="ltr">0947900300</p>
-                </div>
-              </div>
-              <div class="info-item">
-                <div class="info-icon">📧</div>
-                <div>
-                  <h4 data-i18n="contact_email_label">البريد الإلكتروني</h4>
-                  <p>info@maraialrabea.ly</p>
-                </div>
-              </div>
+              <h4 data-i18n="badge_bank">توافق مصرفي كامل</h4>
+              <p data-i18n="badge_bank_desc">حسابات الشركة مهيأة للاعتمادات المستندية والتحويلات الرسمية وفق ضوابط CBL.
+              </p>
             </div>
-            <div class="contact-form">
-              <form id="contactForm" onsubmit="event.preventDefault();">
-                <div class="form-group">
-                  <label for="name" data-i18n="form_name">الاسم</label>
-                  <input type="text" id="name" required />
-                </div>
-                <div class="form-group">
-                  <label for="email" data-i18n="form_email">البريد الإلكتروني</label>
-                  <input type="email" id="email" required />
-                </div>
-                <div class="form-group">
-                  <label for="message" data-i18n="form_message">الرسالة</label>
-                  <textarea id="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn-primary full-width" data-i18n="form_submit">إرسال</button>
-              </form>
+            <div class="badge-card">
+              <div class="badge-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M5 22h14"/><path d="M5 5h14"/><path d="M5 5l-2 9h4Z"/><path d="M19 5l-2 9h4Z"/></svg>
+              </div>
+              <h4 data-i18n="badge_legal">موقف قانوني سليم</h4>
+              <p data-i18n="badge_legal_desc">جميع التراخيص والسجلات مجددة ومستوفية للشروط القانونية في دولة ليبيا.</p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-top">
-          <div class="footer-logo-wrapper" id="secret-trigger">
-            <img src="/logo-light.svg" alt="شركة مراعي الربيع" class="footer-logo" id="footer-logo" />
+    <!-- Services / CMS Section -->
+    <section id="services" class="services section bg-alternate">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2 class="section-title" data-i18n="services_title">النطاق التجاري المعتمد</h2>
+          <div class="divider"></div>
+          <p class="section-desc" data-i18n="services_subtitle">نمارس أنشطتنا التجارية وفقاً للاختصاصات المسجلة رسمياً
+            في عقد التأسيس والسجل التجاري.</p>
+        </div>
+
+        <div class="services-grid animate-fade-up" id="cms-gallery">
+          <!-- Items will be injected by JavaScript CMS data -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header animate-fade-up">
+          <h2 class="section-title" data-i18n="contact_title">قنوات التواصل المعتمدة</h2>
+          <div class="divider"></div>
+          <p class="section-desc" data-i18n="contact_subtitle">نسعد باستقبال استفساراتكم الرسمية وطلبات التعاون التجاري
+            عبر قنواتنا المخصصة.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards animate-fade-up" style="transition-delay: 0.1s;">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4 data-i18n="contact_address_label">المقر الرئيسي</h4>
+                <p data-i18n="address_text">دولة ليبيا، طرابلس، منطقة تاجوراء<br />بجانب كبري المصانع</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4 data-i18n="contact_phone_label">الهاتف والتواصل المباشر</h4>
+                <p class="mono-text" dir="ltr">094 790 0300</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="contact-info">
+                <h4 data-i18n="contact_email_label">المراسلات الرسمية</h4>
+                <p class="mono-text">info@maraialrabea.ly</p>
+              </div>
+            </div>
           </div>
-          <div class="footer-desc">
-            <h3 data-i18n="about_company_name">شركة مراعي الربيع ذات المسؤولية المحدودة</h3>
-            <p data-i18n="footer_registration">سجل تجاري رقم: 05010202541436 | دولة ليبيا</p>
+
+          <div class="contact-form-wrapper animate-fade-up" style="transition-delay: 0.2s;">
+            <form id="contactForm" class="contact-form" onsubmit="event.preventDefault();">
+              <h3 data-i18n="form_header">إرسال رسالة مباشرة</h3>
+              <div class="form-group">
+                <label for="name" data-i18n="form_name">اسم الجهة / الشخص</label>
+                <input type="text" id="name" required placeholder="أدخل الاسم بوضوح" />
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="form_email">البريد الإلكتروني للرد</label>
+                <input type="email" id="email" required placeholder="example@domain.com" dir="ltr" />
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="form_message">نص الرسالة</label>
+                <textarea id="message" rows="5" required placeholder="تفاصيل الاستفسار أو الطلب..."></textarea>
+              </div>
+              <button type="submit" class="btn-primary full-width" data-i18n="form_submit">إرسال الطلب</button>
+            </form>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p data-i18n="footer_copyright">جميع الحقوق محفوظة © 2025 شركة مراعي الربيع.</p>
-          <div class="footer-links">
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand" id="secret-trigger">
+          <img src="/logo-light.svg" alt="شركة مراعي الربيع" class="footer-logo" id="footer-logo" />
+          <p data-i18n="footer_brand_desc" class="mt-4">شريككم الاستراتيجي لتأمين مستقبل الغذاء بجودة وموثوقية.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4 data-i18n="footer_links_title">روابط سريعة</h4>
+          <a href="#home" data-i18n="nav_home">الرئيسية</a>
+          <a href="#about" data-i18n="nav_about">عن الشركة</a>
+          <a href="#services" data-i18n="nav_services">الأنشطة المعتمدة</a>
+          <a href="#details" data-i18n="nav_details">البيانات الرسمية</a>
+        </div>
+        <div class="footer-legal">
+          <h4 data-i18n="footer_legal_title">معلومات تنظيمية</h4>
+          <p data-i18n="footer_registration">سجل تجاري: 05010202541436</p>
+          <p data-i18n="footer_country">دولة التأسيس: ليبيا</p>
+          <div class="policy-links mt-4">
             <a href="#" data-i18n="link_privacy">سياسة الخصوصية</a>
+            <span class="separator">|</span>
             <a href="#" data-i18n="link_terms">الشروط والأحكام</a>
           </div>
         </div>
       </div>
-    </footer>
-
-    <!-- Hidden CMS Dashboard (Template) -->
-    <div id="cms-overlay" class="cms-overlay hidden">
-      <div class="cms-auth" id="cms-auth">
-        <h3>Admin Access</h3>
-        <p>Enter 4-digit PIN</p>
-        <input type="password" id="cms-pin" maxlength="4" />
-        <p id="cms-error" class="error-msg"></p>
-        <button id="cms-login-btn" class="btn-primary">Verify</button>
-      </div>
-      
-      <div class="cms-dashboard hidden" id="cms-dashboard">
-        <div class="cms-header">
-          <h3>CMS Dashboard (Dev Only)</h3>
-          <button id="cms-close-btn" class="icon-btn">✕</button>
-        </div>
-        <div class="cms-actions">
-          <button id="cms-add-btn" class="btn-secondary">+ Add Service</button>
-          <button id="cms-export-btn" class="btn-primary">Export Data Array</button>
-        </div>
-        <div class="cms-list" id="cms-list">
-          <!-- CMS Editor Items -->
-        </div>
+      <div class="footer-bottom">
+        <p class="copyright" data-i18n="footer_copyright">جميع الحقوق محفوظة © 2025 لشركة مراعي الربيع ذات المسؤولية
+          المحدودة.</p>
       </div>
     </div>
+  </footer>
 
-    <!-- CMS Data & Main Scripts -->
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  <!-- Hidden CMS Dashboard -->
+  <div id="cms-overlay" class="cms-overlay hidden">
+    <div class="cms-auth" id="cms-auth">
+      <h3>نظام إدارة المحتوى السري</h3>
+      <p>الرجاء إدخال رمز الوصول (PIN)</p>
+      <input type="password" id="cms-pin" maxlength="4" />
+      <p id="cms-error" class="error-msg"></p>
+      <button id="cms-login-btn" class="btn-primary full-width">تحقق الدخول</button>
+    </div>
+
+    <div class="cms-dashboard hidden" id="cms-dashboard">
+      <div class="cms-header">
+        <div>
+          <h3>لوحة التحكم (بيئة التطوير فقط)</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">تعديل الأنشطة التجارية - هذه التعديلات يجب تصديرها
+            للكود المصدري</p>
+        </div>
+        <button id="cms-close-btn" class="icon-btn" style="background: rgba(255,0,0,0.1); border:1px solid red;">✕
+          إغلاق</button>
+      </div>
+      <div class="cms-actions">
+        <button id="cms-add-btn" class="btn-secondary">+ إضافة نشاط جديد</button>
+        <button id="cms-export-btn" class="btn-primary">نسخ الكود المعدل لتحديث الموقع نهائياً</button>
+      </div>
+      <div class="cms-list" id="cms-list">
+        <!-- CMS Editor Items -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Scripts -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
