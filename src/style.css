@@ -21,31 +21,32 @@
   --brand-fade: rgba(139, 0, 0, 0.05);
 
   --border-color: #E2E8F0;
-  --card-bg: #FFFFFF;
+  --card-bg: rgba(255, 255, 255, 0.9);
   --overlay-bg: rgba(255, 255, 255, 0.85);
 
   --gradient-hero: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(248, 250, 252, 1) 100%);
 }
 
 [data-theme='dark'] {
-  --bg-primary: #0A0A0A;
-  --bg-secondary: #121212;
-  --bg-tertiary: #1A1A1A;
+  --bg-primary: #09090b;
+  --bg-secondary: #121214;
+  --bg-tertiary: #18181b;
 
-  --text-primary: #EDEDED;
-  --text-secondary: #A1A1AA;
-  --text-tertiary: #71717A;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #71717a;
 
-  --brand-color: #DC2626; /* Vibrant but deep red for dark mode */
-  --brand-light: #EF4444;
-  --brand-color-hover: #B91C1C;
-  --brand-fade: rgba(220, 38, 38, 0.15);
+  --brand-color: #ef4444;
+  --brand-light: #f87171;
+  --brand-color-hover: #dc2626;
+  --brand-fade: rgba(239, 68, 68, 0.1);
 
-  --border-color: #27272A;
-  --card-bg: #121212;
-  --overlay-bg: rgba(10, 10, 10, 0.85);
+  --border-color: #27272a;
+  --card-bg: rgba(18, 18, 20, 0.6);
+  --overlay-bg: rgba(9, 9, 11, 0.85);
 
-  --gradient-hero: linear-gradient(135deg, #0A0A0A 0%, #121212 100%);
+  --gradient-hero: radial-gradient(circle at top right, rgba(239, 68, 68, 0.12), transparent 40%),
+                   linear-gradient(135deg, #09090b 0%, #121214 100%);
 }
 
 * {
@@ -509,6 +510,8 @@ html[dir="ltr"] .hero-bg-accent {
   text-align: center;
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .about-card::before {
@@ -724,6 +727,8 @@ html[dir="ltr"] .details-table td {
   padding: 30px;
   flex-grow: 1;
   background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .service-content h3 {
@@ -758,6 +763,8 @@ html[dir="ltr"] .details-table td {
   border-radius: var(--radius);
   border: 1px solid var(--border-color);
   transition: var(--transition);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .contact-card:hover {
@@ -796,6 +803,8 @@ html[dir="ltr"] .contact-card:hover {
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
   border: 1px solid var(--border-color);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .contact-form h3 {
